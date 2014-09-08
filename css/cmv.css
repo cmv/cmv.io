@@ -1,0 +1,74 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+body {
+    font-weight: 300;
+    background-color: #010;
+}
+
+.splash p {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    line-height: 1.6em;
+    font-size: 18px;
+    color: #bbb;
+}
+
+.splash h1 {
+    font-weight: bold;
+    color: #fff;
+    font-size: 32px;
+}
+
+.splash {
+    height: 100%;
+    padding-top: 10em;
+    /*background-image:  url('https://farm3.staticflickr.com/2838/13780661373_64313f21e7_o.jpg');*/
+    /*background-image:  url('https://farm4.staticflickr.com/3920/14212395899_1186c4b168_o.jpg');*/
+    background-image: url('../images/bg.jpg');
+    background-size: cover;
+    text-align: center;
+    overflow-y: auto;
+}
+
+.navbar-default {
+    position: absolute;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.navbar-default .navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    background-image: url('../images/rocket-logo.png');
+    background-repeat:  no-repeat;
+    background-size: 60px;
+    background-position: 0px 8px;
+    padding-left: 70px;
+    color: #fff;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a {
+    font-weight: 400;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #BBB;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #fff;
+    background-color: transparent;
+}
+
+.btn {
+    font-size: 22px;
+}
+
+@media screen and (max-width: 767px) {
+    .navbar-default .navbar-brand {
+        font-size: 20px;
+    }
+}
