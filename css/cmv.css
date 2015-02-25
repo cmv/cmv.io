@@ -14,7 +14,7 @@ body {
     margin-bottom: 2em;
     line-height: 1.6em;
     font-size: 18px;
-    color: #bbb;
+    color: #E2E2E2;
 }
 
 .splash h1 {
@@ -29,6 +29,7 @@ body {
     /*background-image:  url('https://farm3.staticflickr.com/2838/13780661373_64313f21e7_o.jpg');*/
     /*background-image:  url('https://farm4.staticflickr.com/3920/14212395899_1186c4b168_o.jpg');*/
     background-image: url('../images/bg.jpg');
+    background-position: center;
     background-size: cover;
     text-align: center;
     overflow-y: auto;
