@@ -15,19 +15,26 @@ body {
     line-height: 1.6em;
     font-size: 18px;
     color: #E2E2E2;
+    text-shadow: 2px 2px #000;
 }
 
 .splash h1 {
     font-weight: bold;
     color: #fff;
     font-size: 32px;
+    text-shadow: 2px 2px #000;
+}
+
+.splash h2 {
+    font-weight: bold;
+    color: #FFF;
+    font-size: 24px;
+    text-shadow: 2px 2px #000;
 }
 
 .splash {
     height: 100%;
-    padding-top: 10em;
-    /*background-image:  url('https://farm3.staticflickr.com/2838/13780661373_64313f21e7_o.jpg');*/
-    /*background-image:  url('https://farm4.staticflickr.com/3920/14212395899_1186c4b168_o.jpg');*/
+    padding-top: 8em;
     background-image: url('../images/bg.jpg');
     background-position: center;
     background-size: cover;
@@ -37,7 +44,8 @@ body {
 
 .navbar-default {
     position: absolute;
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0,0,0,0.8);
+    margin-right: 18px;
 }
 
 .navbar-default .navbar-brand {
@@ -66,6 +74,20 @@ body {
 
 .btn {
     font-size: 22px;
+    text-shadow: none;
+}
+
+.example {
+    width: 100%;
+    background-color: #FFF;
+    border: 1px solid #999;
+    padding: 8px;
+    margin-bottom: 32px;
+    box-shadow: 4px 4px #000;
+}
+.example img {
+    width: 100%;
+    border: 1px solid #999;
 }
 
 @media screen and (max-width: 767px) {
